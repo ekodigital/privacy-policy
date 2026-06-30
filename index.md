@@ -1,6 +1,6 @@
 # Kebijakan Privasi / Privacy Policy - AI Nutrisi
 
-**Terakhir Diperbarui / Last Updated:** 17 Juni 2026
+**Terakhir Diperbarui / Last Updated:** 1 Juli 2026
 
 Selamat datang di **AI Nutrisi** (selanjutnya disebut "Aplikasi"). Kami berkomitmen untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, menyimpan, dan membagikan informasi Anda saat Anda menggunakan Aplikasi kami.
 
@@ -27,6 +27,8 @@ Selamat datang di **AI Nutrisi** (selanjutnya disebut "Aplikasi"). Kami berkomit
     *   *Background Location: To prevent the route recording from being interrupted, the App accesses your location **in the background — including when the screen is off or the app is not open**. This access is active **only** during an active recording session (after you tap "Start") and stops automatically when you tap "Stop". The App never tracks your location outside an activity recording session.*
 *   **Penyimpanan Lokal**: Seluruh data koordinat rute disimpan **secara lokal di perangkat Anda** dan **tidak dikirim ke server kami, tidak dibagikan, dan tidak dijual** kepada pihak ketiga mana pun, termasuk untuk tujuan iklan atau analitik.
     *   *Local Storage: All route coordinate data is stored **locally on your device** and is **not sent to our servers, not shared, and not sold** to any third party, including for advertising or analytics purposes.*
+*   **Tampilan Peta (Google Maps)**: Untuk menampilkan peta rute, Aplikasi menggunakan **Google Maps SDK**. Saat peta ditampilkan, Google dapat memproses data lokasi dan perangkat (mis. area peta yang Anda lihat) untuk merender peta, sesuai [Kebijakan Privasi Google](https://policies.google.com/privacy). Hal ini terpisah dari koordinat rute Anda, yang tetap disimpan lokal di perangkat seperti dijelaskan di atas.
+    *   *Map Display (Google Maps): To show route maps, the App uses the **Google Maps SDK**. When the map is displayed, Google may process location and device data (e.g. the map area you view) to render the map, in accordance with the [Google Privacy Policy](https://policies.google.com/privacy). This is separate from your route coordinates, which remain stored locally on your device as described above.*
 
 ### D. Data Olah Napas & Statistik / *Breathing Exercise & Statistics*
 *   Statistik sesi olah napas (durasi latihan, jumlah siklus, dan streak harian) disimpan secara lokal di perangkat Anda atau di database akun Anda.
@@ -62,11 +64,13 @@ Kami tidak akan menjual atau membagikan data pribadi Anda kepada pihak ketiga un
 *   **Penyedia Database Cloud Pihak Ketiga**: Untuk mengamankan akun dan data profil Anda di server cloud.
 *   **Penyedia Teknologi Kecerdasan Buatan (AI) Pihak Ketiga**: Untuk menganalisis foto makanan yang Anda kirimkan guna mendeteksi informasi gizi.
 *   **Penyedia Sistem Manajemen Transaksi Pihak Ketiga**: Untuk memvalidasi pembelian dan status langganan premium Anda.
+*   **Google Maps (Google LLC)**: Untuk menampilkan peta dan rute aktivitas. Penggunaan Google Maps di Aplikasi ini tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy) dan [Persyaratan Layanan Google Maps/Google Earth](https://www.google.com/help/terms_maps/).
 
 *We do not sell or share your personal data with third parties for marketing purposes. We only share data with trusted third-party services for essential App functions:*
 *   ***Third-Party Cloud Database Providers***: *To secure your account and profile data in cloud servers.*
 *   ***Third-Party Artificial Intelligence (AI) Technology Providers***: *To analyze the food photos you submit to detect nutrition details.*
 *   ***Third-Party Transaction Management System Providers***: *To validate purchases and premium subscription status.*
+*   ***Google Maps (Google LLC)***: *To display maps and activity routes. Use of Google Maps within this App is subject to the [Google Privacy Policy](https://policies.google.com/privacy) and the [Google Maps/Google Earth Additional Terms of Service](https://www.google.com/help/terms_maps/).*
 
 ---
 
