@@ -22,8 +22,8 @@ Aplikasi menggunakan layanan AI pihak ketiga, yaitu **Google Gemini API** (diope
 
 *The App uses a third-party AI service, **Google Gemini API** (operated by Google LLC), for the Food Scanner, Barcode Scanner, Nutrition JSON Import, Cooking Guide, and AI Meal Suggestions and Meal Plans features.*
 
-*   **Data yang dikirim ke Google Gemini**: foto makanan yang Anda ambil atau pilih; teks atau data gizi yang Anda masukkan (mis. isi JSON, nama bahan); informasi profil kesehatan yang tersimpan di aplikasi apabila tersedia (kondisi kesehatan, usia, jenis kelamin, berat badan, tinggi badan, tingkat aktivitas, serta target dan berat badan terkini pada Program Berat Badan); dan preferensi bahasa Anda. Data ini dikirim semata-mata untuk menghasilkan analisis gizi dan saran yang sesuai dengan kondisi Anda, **tidak** digunakan untuk iklan, dan **tidak** dijual kepada pihak mana pun.
-    *   *Data sent to Google Gemini: the food photo you capture or select; text or nutrition data you enter (e.g. JSON content, ingredient names); health profile information saved in the app where available (health conditions, age, sex, weight, height, activity level, and your goal and current weight in the Weight Program); and your language preference. This data is sent solely to generate nutrition analysis and advice tailored to your circumstances, is **not** used for advertising, and is **not** sold to any party.*
+*   **Data yang dikirim ke Google Gemini**: foto makanan yang Anda ambil atau pilih; teks atau data gizi yang Anda masukkan (mis. isi JSON, nama bahan); informasi profil kesehatan yang tersimpan di aplikasi apabila tersedia (kondisi kesehatan, usia, jenis kelamin, berat badan, tinggi badan, tingkat aktivitas, serta target dan berat badan terkini pada Program Berat Badan); dan preferensi bahasa Anda. Aplikasi mengirim data ini semata-mata untuk menghasilkan analisis gizi dan saran yang sesuai dengan kondisi Anda. **Kami tidak** menggunakannya untuk iklan dan **tidak** menjualnya kepada pihak mana pun.
+    *   *Data sent to Google Gemini: the food photo you capture or select; text or nutrition data you enter (e.g. JSON content, ingredient names); health profile information saved in the app where available (health conditions, age, sex, weight, height, activity level, and your goal and current weight in the Weight Program); and your language preference. The App sends this data solely to generate nutrition analysis and advice tailored to your circumstances. **We do not** use it for advertising and **do not** sell it to any party.*
 *   **Kunci API disediakan oleh Anda sendiri**: Fitur AI hanya berfungsi setelah Anda memasukkan kunci API Google Gemini milik Anda sendiri, yang Anda peroleh langsung dari Google AI Studio. Kunci tersebut disimpan **hanya di perangkat Anda** dan tidak pernah dikirim ke server kami.
     *   *You provide your own API key: AI features only work after you enter your own Google Gemini API key, obtained directly from Google AI Studio. That key is stored **only on your device** and is never sent to our servers.*
 *   **Pengiriman berlangsung langsung dari perangkat Anda**: Permintaan AI dikirim langsung dari aplikasi di perangkat Anda ke server Google (`generativelanguage.googleapis.com`). Kami sebagai pengembang **tidak menerima, tidak menyimpan, dan tidak dapat mengakses** foto atau data profil kesehatan yang Anda kirimkan ke layanan AI tersebut.
@@ -81,17 +81,35 @@ Kami menggunakan informasi yang dikumpulkan untuk:
 
 ## 3. Berbagi Data dengan Pihak Ketiga / *Data Sharing with Third Parties*
 
-Kami tidak akan menjual atau membagikan data pribadi Anda kepada pihak ketiga untuk tujuan pemasaran. Kami hanya membagikan data dengan layanan pihak ketiga tepercaya untuk kelancaran fungsi Aplikasi:
+Kami tidak menjual data pribadi Anda, dan tidak membagikannya kepada pihak ketiga untuk tujuan pemasaran atau periklanan.
+
+**A. Penyedia layanan yang memproses data atas nama kami**
+
+Pihak berikut memproses data berdasarkan instruksi kami, semata-mata agar Aplikasi dapat berfungsi:
 *   **Penyedia Database Cloud Pihak Ketiga**: Untuk mengamankan akun dan data profil Anda di server cloud.
-*   **Google Gemini API (Google LLC)**: Untuk menganalisis foto makanan dan data gizi yang Anda kirimkan. Pengiriman berlangsung langsung dari perangkat Anda ke server Google menggunakan kunci API milik Anda sendiri, sehingga kami tidak menerima data tersebut. Lihat rincian lengkap di bagian 1.B. Penggunaan layanan ini tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy).
 *   **Penyedia Sistem Manajemen Transaksi Pihak Ketiga**: Untuk memvalidasi pembelian dan status langganan premium Anda.
 *   **Google Maps (Google LLC)**: Untuk menampilkan peta dan rute aktivitas. Penggunaan Google Maps di Aplikasi ini tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy) dan [Persyaratan Layanan Google Maps/Google Earth](https://www.google.com/help/terms_maps/).
 
-*We do not sell or share your personal data with third parties for marketing purposes. We only share data with trusted third-party services for essential App functions:*
+**B. Pengiriman ke layanan AI dilakukan oleh Anda, bukan oleh kami**
+
+Fitur AI hanya aktif setelah Anda memperoleh dan memasukkan kunci API **Google Gemini milik Anda sendiri** dari Google AI Studio. Ketika Anda menekan tombol pindai, permintaan yang berisi foto makanan beserta profil kesehatan Anda dikirim **langsung dari perangkat Anda ke server Google** memakai kunci tersebut, di bawah akun Google Anda sendiri.
+
+Permintaan itu **tidak pernah melewati server kami**, dan kami tidak menerima, melihat, maupun menyimpan isinya. Karena itu kami tidak bertindak sebagai pihak yang membagikan data tersebut — pengirimannya berlangsung atas tindakan Anda sendiri, setiap kali Anda memilih untuk memindai. Rincian data yang disertakan dijelaskan di bagian 1.B dan ditampilkan pada halaman Informasi Penggunaan AI di dalam Aplikasi. Penggunaan layanan ini tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy).
+
+*We do not sell your personal data, and we do not share it with third parties for marketing or advertising purposes.*
+
+***A. Service providers that process data on our behalf***
+
+*The following parties process data under our instructions, solely so that the App can function:*
 *   ***Third-Party Cloud Database Providers***: *To secure your account and profile data in cloud servers.*
-*   ***Google Gemini API (Google LLC)***: *To analyze the food photos and nutrition data you submit. Requests go directly from your device to Google's servers using your own API key, so we do not receive that data. See section 1.B for full details. Use of this service is subject to the [Google Privacy Policy](https://policies.google.com/privacy).*
 *   ***Third-Party Transaction Management System Providers***: *To validate purchases and premium subscription status.*
 *   ***Google Maps (Google LLC)***: *To display maps and activity routes. Use of Google Maps within this App is subject to the [Google Privacy Policy](https://policies.google.com/privacy) and the [Google Maps/Google Earth Additional Terms of Service](https://www.google.com/help/terms_maps/).*
+
+***B. Transmissions to AI services are made by you, not by us***
+
+*AI features only become active after you obtain and enter **your own Google Gemini API key** from Google AI Studio. When you tap the scan button, the request containing your food photo together with your health profile is sent **directly from your device to Google's servers** using that key, under your own Google account.*
+
+*That request **never passes through our servers**, and we do not receive, see, or store its contents. We therefore do not act as the party sharing that data — the transmission happens through your own action, each time you choose to scan. The data included is described in section 1.B and is disclosed on the AI Usage Information screen inside the App. Use of this service is subject to the [Google Privacy Policy](https://policies.google.com/privacy).*
 
 ---
 
